@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "peppy-hangout-233323": {
+      "hosting": {
+        "app-fire-base": [
+          "peppy-hangout-233323"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "peppy-hangout-233323"
+  }
+}

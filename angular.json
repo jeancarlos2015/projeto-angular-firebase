@@ -98,6 +98,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "app-fire-base:build:production",
+            "firebaseProject": "peppy-hangout-233323",
+            "firebaseHostingSite": "peppy-hangout-233323"
+          }
         }
       }
     }
